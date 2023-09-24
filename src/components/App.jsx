@@ -12,7 +12,7 @@ export function App() {
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Route>
     </Routes>
